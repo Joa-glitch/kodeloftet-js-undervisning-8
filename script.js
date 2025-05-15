@@ -44,3 +44,10 @@ function businessCard() {
     body.textContent = fullName;
 }
 businessCard();
+
+function band() {
+    const fullName = "Fredrik Thordendal";
+    console.log(fullName);
+    const bandName = "Meshuggah";
+    const bandRole = `Gitarist`
+}
