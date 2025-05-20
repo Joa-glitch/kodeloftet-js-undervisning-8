@@ -86,3 +86,19 @@ function band() {
 
         ?.textContent = ?;
     }*/
+
+    //
+    //
+
+    const addText = document.getElementById("addText");
+    console.log(addText);
+
+    addText.addEventListener("click", function (){
+     console.log("Button clicked?");
+     // Steg 1: Lag en variabel som henter elementet med id-navn receiveText
+     const receiveText = document.getElementById("receiveText");
+     // Steg 2: Lag en variabel som het text med en string med valgfri tekst
+     const text = "Det er SOOOL";
+     // Steg 3: Gjør at variabel receiveText mottar innholdet til text med textContent
+     receiveText.textContent = text;
+    });
