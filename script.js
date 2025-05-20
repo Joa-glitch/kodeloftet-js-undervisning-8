@@ -1,4 +1,4 @@
-// console refererer til inspiser vinduet. log gir en beskjed til console
+// console refere
 console.log('Hello World!');
 
 // datatyper:
