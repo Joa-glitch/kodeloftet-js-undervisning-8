@@ -51,3 +51,19 @@ function band() {
     const bandName = "Meshuggah";
     const bandRole = `Gitarist`
 }
+
+//
+//
+
+    function clickButton() {
+      const h1Element = document.getElementById("changeText"); 
+      // document.querySelector("#changeText") 
+      console.log(h1Element); 
+    
+    
+
+    const newText = "Velkommen til min side";
+
+    h1Element.textContent = newText;
+}
+    clickButton();
