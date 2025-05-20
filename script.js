@@ -65,5 +65,10 @@ function band() {
     const newText = "Velkommen til min side";
 
     h1Element.textContent = newText;
-}
-    clickButton();
+    }
+    
+
+    const buttonElement = document.getElementById("button");
+    console.log(buttonElement);
+
+    buttonElement.addEventListener("click", clickButton);
